@@ -79,3 +79,32 @@
   border: 1px solid #A0A0A0;
   border-radius: 10px;
 }
+
+/******************************************************** 
+　ログアウトダイアログ
+********************************************************/
+.dialog-main {
+  width: 1366px;
+  height: 688px;
+  background-color: #F8F5F5;
+}
+
+.dialog {
+  width: 360px;
+  border: 1px solid #666666;
+  border-radius: 5px;
+}
+
+.dialog__header {
+  width: 100%;
+  height: 25px;
+  padding: 0 5px;
+  background-color: #DC5041;
+  color: #FFFFFF;
+}
+
+.dialog__body {
+  width: 100%;
+  height: 200px;
+  border-color: #FFFFFF;
+}
