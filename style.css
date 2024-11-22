@@ -80,16 +80,17 @@
   border-radius: 10px;
 }
 
+
 /******************************************************** 
 　ログアウトダイアログ
 ********************************************************/
 .dialog-main {
-  width: 1366px;
-  height: 688px;
-  background-color: #F8F5F5;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 1366px;
+  height: 688px;
+  background-color: #F8F5F5;
 }
 
 .dialog {
@@ -99,20 +100,20 @@
 }
 
 .dialog__header {
+  display: flex;
+  align-items: center;
   width: 100%;
   height: 25px;
   padding: 0 5px;
   background-color: #DC5041;
   color: #FFFFFF;
-  display: flex;
-  align-items: center;
 }
 
 .dialog__body {
-  width: 100%;
-  height: 200px;
-  border-color: #FFFFFF;
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 100%;
+  height: 200px;
+  border-color: #FFFFFF;
 }
